@@ -24,7 +24,7 @@
     "service_worker": "background.js"
   },
 
-  "permissions": ["storage", "alarms","contextMenus"],
+  "permissions": ["storage", "alarms","contextMenus", "tabs"],
 
   "chrome_url_overrides": {
     "history": "myPage.html"
