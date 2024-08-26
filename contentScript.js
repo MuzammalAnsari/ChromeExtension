@@ -12,9 +12,8 @@ chrome.storage.local.set({'name': 'ansari'}).then(()=>{
 })
 
 chrome.storage.local.get(['name']).then((result)=>{
-    console.log("value currently is " + result.name)
+    console.log("value currently is" + result.name)
 });
 
-//local storage extension set
 
 
